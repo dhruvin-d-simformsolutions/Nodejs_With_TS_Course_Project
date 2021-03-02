@@ -11,3 +11,7 @@ Typescript DataTypes :
 
 !The core primitive types in TypeScript are all lowercase!
 Main Task : Chcking Type of the variable
+
+
+let : Block Scope | changeble
+Const : Block Scope | Cannot change
