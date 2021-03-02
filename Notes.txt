@@ -1,0 +1,13 @@
+Command for Compile typescript file : tsc FileName.ts
+
+Typescript DataTypes :
+    -number (1,53,-10)
+    -string ('hi',"Hello",`Kem chhe ${Variable_name}`)
+    -boolean ( true,false)
+    -Object ( {age : 30})
+    -Array ([1,2,3],['a','b','c'])
+    -Tuple ([1,"Hello"] -> Variable_name : [number,string])
+    -Enum enum Variable_name{ADMIN,READ_ONLY,Author} -> Added by Typescript : Automatically enumerated globle constant identifiers
+
+!The core primitive types in TypeScript are all lowercase!
+Main Task : Chcking Type of the variable

@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "dev": "ts-node-dev --respawn --pretty --transpile-only app.ts"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/dhruvin-d-simformsolutions/Nodejs_With_TS_Course_Project#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "ts-node-dev": "^1.1.6"
   }
 }
