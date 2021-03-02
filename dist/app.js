@@ -1,21 +1,23 @@
 "use strict";
-const hobbies = ['Sports', 'Cooking'];
-const activeHobbies = ['Hiking'];
-activeHobbies.push(...hobbies);
-const person = {
-    firstName: 'Max',
-    age: 30
-};
-const copiedPerson = Object.assign({}, person);
-const add = (...numbers) => {
-    return numbers.reduce((curResult, curValue) => {
-        return curResult + curValue;
-    }, 0);
-};
-const addedNumbers = add(5, 10, 2, 3.7);
-console.log(addedNumbers);
-const [hobby1, hobby2, ...remainingHobbies] = hobbies;
-console.log(hobbies, hobby1, hobby2);
-const { firstName: userName, age } = person;
-console.log(userName, age, person);
+class Department {
+    constructor(id, employee) {
+        this.id = id;
+        this.employee = employee;
+    }
+    describe() {
+        console.log("Department : ", this.id);
+    }
+    addEmployee(employee) {
+        this.employee.push(employee);
+    }
+    printEmployeeInformation() {
+        console.log(this.employee.length);
+        console.log(`Department ID : ${this.id} and Employees ${this.employee}`);
+    }
+}
+const accounting = new Department("Accounting", ["d1"]);
+accounting.addEmployee('Max');
+accounting.addEmployee('Manu');
+accounting.describe();
+accounting.printEmployeeInformation();
 //# sourceMappingURL=app.js.map
