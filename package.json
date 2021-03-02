@@ -1,0 +1,23 @@
+{
+  "name": "course_project_nodejs_with_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruvin-d-simformsolutions/Nodejs_With_TS_Course_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruvin-d-simformsolutions/Nodejs_With_TS_Course_Project/issues"
+  },
+  "homepage": "https://github.com/dhruvin-d-simformsolutions/Nodejs_With_TS_Course_Project#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
