@@ -30,4 +30,13 @@ Const : Block Scope | Cannot change
         -It create only one instance of a class
 
 -Interface
-    -
+    -Only extended or implemented to the class
+    -Can not initiated
+
+-Intersection (&)
+    -type ElevatedEmployee = Admin & Employee ->(Admin and Employee both are type defining above)
+    
+-Type Guards
+    -Typeof
+    -in -> 'name' in emp
+    -instanceof ->vehical instanceof Truck
