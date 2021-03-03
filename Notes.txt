@@ -40,3 +40,12 @@ Const : Block Scope | Cannot change
     -Typeof
     -in -> 'name' in emp
     -instanceof ->vehical instanceof Truck
+    
+-Type Casting
+    -<elementType> (e.g : const userInputElement = <HTMLInputElement>document.getElementById('user-input')!;)
+    -as elementType (e.g : (userInputElement as HTMLInputElement).value = 'Hi there!';)
+
+-Index Properties
+    -defination -> [prop : string] : string
+    -example -> email : "XYZ@example.com"
+    
