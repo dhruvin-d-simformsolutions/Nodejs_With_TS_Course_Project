@@ -15,3 +15,19 @@ Main Task : Chcking Type of the variable
 
 let : Block Scope | changeble
 Const : Block Scope | Cannot change
+
+-Class
+    -Access Modifiers
+        -public
+        -protected
+        -private
+    -Inheritance
+    -Static variable and Methods
+        -Static variable and method can be call directly without class instance
+    -Abstract class
+        -It can not be initiated and it has to be extended.
+    -Singletons and private Constructors
+        -It create only one instance of a class
+
+-Interface
+    -
