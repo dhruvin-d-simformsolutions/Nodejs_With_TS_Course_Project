@@ -1,8 +1,10 @@
 # Nodejs_With_TS_Course_Project
 
 ### Summery of Learning
+
 Command for Compile typescript file : tsc FileName.ts For watch mode tsc --watch or tsc -w
-Typescript DataTypes :
+
+### Typescript DataTypes :
     -number (1,53,-10)
     -string ('hi',"Hello",`Kem chhe ${Variable_name}`)
     -boolean ( true,false)
