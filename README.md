@@ -13,12 +13,12 @@ Command for Compile typescript file : tsc FileName.ts For watch mode tsc --watch
     -Tuple ([1,"Hello"] -> Variable_name : [number,string])
     -Enum enum Variable_name{ADMIN,READ_ONLY,Author} -> Added by Typescript : Automatically enumerated globle constant identifiers
 
-### !The core primitive types in TypeScript are all lowercase!
-### Main Task : Chcking Type of the variable
+#### The core primitive types in TypeScript are all lowercase!
+#### Main Task : Checking Type of the variable
 
 
-### let : Block Scope | changeble
-### Const : Block Scope | Cannot change
+#### let : Block Scope | changeble
+#### Const : Block Scope | Cannot change
 
 ### -Class
     -Access Modifiers
