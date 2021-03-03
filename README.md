@@ -1,6 +1,6 @@
 # Nodejs_With_TS_Course_Project
 
-Summery of Learning
+### Summery of Learning
 Command for Compile typescript file : tsc FileName.ts For watch mode tsc --watch or tsc -w
 Typescript DataTypes :
     -number (1,53,-10)
@@ -11,14 +11,14 @@ Typescript DataTypes :
     -Tuple ([1,"Hello"] -> Variable_name : [number,string])
     -Enum enum Variable_name{ADMIN,READ_ONLY,Author} -> Added by Typescript : Automatically enumerated globle constant identifiers
 
-!The core primitive types in TypeScript are all lowercase!
-Main Task : Chcking Type of the variable
+### !The core primitive types in TypeScript are all lowercase!
+### Main Task : Chcking Type of the variable
 
 
-let : Block Scope | changeble
-Const : Block Scope | Cannot change
+### let : Block Scope | changeble
+### Const : Block Scope | Cannot change
 
--Class
+### -Class
     -Access Modifiers
         -public
         -protected
@@ -31,23 +31,23 @@ Const : Block Scope | Cannot change
     -Singletons and private Constructors
         -It create only one instance of a class
 
--Interface
+### -Interface
     -Only extended or implemented to the class
     -Can not initiated
 
--Intersection (&)
+### -Intersection (&)
     -type ElevatedEmployee = Admin & Employee ->(Admin and Employee both are type defining above)
     
--Type guards
+### -Type guards
     -Typeof
     -in -> 'name' in emp
     -instanceof ->vehical instanceof Truck
     
--Type Casting
+### -Type Casting
     -<elementType> (e.g : const userInputElement = <HTMLInputElement>document.getElementById('user-input')!;)
     -as elementType (e.g : (userInputElement as HTMLInputElement).value = 'Hi there!';)
 
--Index Properties
+### -Index Properties
     -defination -> [prop : string] : string
     -example -> email : "XYZ@example.com"
-    
+ 
