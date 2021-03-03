@@ -70,7 +70,7 @@
   },
   "exclude":[
     "node_modules",
-    "Basic_&_Datatypes"
+    "BasicDatatypes"
   ],
   // "include":[
   //   "app.ts"
