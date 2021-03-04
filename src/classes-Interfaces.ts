@@ -153,7 +153,7 @@ interface Greetable {
   greet(phrase: string): void;
 }
 
-class Person implements Greetable, Named {
+class Person1 implements Greetable, Named {
   name?: string;
   age = 30;
 
@@ -174,6 +174,6 @@ class Person implements Greetable, Named {
 
 let user1: Greetable;
 
-user1 = new Person();
+user1 = new Person1();
 user1.greet('Hi there - I am');
 console.log(user1);

@@ -36,7 +36,7 @@ Const : Block Scope | Cannot change
 -Intersection (&)
     -type ElevatedEmployee = Admin & Employee ->(Admin and Employee both are type defining above)
     
--Type Guards
+-Type guards
     -Typeof
     -in -> 'name' in emp
     -instanceof ->vehical instanceof Truck
@@ -49,3 +49,8 @@ Const : Block Scope | Cannot change
     -defination -> [prop : string] : string
     -example -> email : "XYZ@example.com"
     
+-Generics Type
+    -It allow us to identify incoming argument's type wheather it is number, string, object. Using this information we can return as per argument's type and use the inbuild function on that argument like length method of sting.
+
+-Decorators
+    -A decorator is a special kind of declaration that can be attached to a class declaration, method, accessor, property or parameter.
